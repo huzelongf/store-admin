@@ -5,6 +5,8 @@ module.exports = app => {
     * index() {
       console.log(process.env.NODE_ENV)
       this.ctx.body = 'hi, egg';
+
+      //test
     }
   }
   return HomeController;
